@@ -1,10 +1,10 @@
 /* место для вашего кода */
 
 * {
-    font-family: "Raleway";
+    font-family: 'Raleway', Arial, sans-serif;
 }
 /* Header */
-header {
+.header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -43,12 +43,9 @@ header {
 }
 
 /** Logo **/
-.logo {
+
+.header img {
     width: 33.3%;
-
-}
-
-.logo img {
     flex: 0 0 auto;
     width: 148px;
     height: 105px;
@@ -73,7 +70,7 @@ header {
 
 /** Cover **/
 .cover {
-    background-image: url(/images/cover.jpg);
+    background-image: url(../images/cover.jpg);
     background-position: center;
     background-size: cover;
     color: white;
@@ -133,7 +130,7 @@ header {
 }
 
 .cover__description__text {
-    font-family: "Raleway";
+    font-family: 'Raleway', Arial, sans-serif;
     text-align: center;
     text-transform: uppercase;
     word-spacing: 17.56px;
@@ -145,7 +142,7 @@ header {
 
 /** Cover button **/
 .cover__button {
-    font-family: "Raleway";
+    font-family: 'Raleway', Arial, sans-serif;
     color: #fff;
     font-size: 22px;
     padding: 12px 32px;
@@ -294,7 +291,7 @@ header {
     line-height: normal;
 }
 /*Footer*/
-footer {
+.footer {
     font-size: 18px;
     font-weight: 400;
     padding: 0 50px 90px;
@@ -303,7 +300,7 @@ footer {
 }
   
 .footer__contacts {
-    font-family: "Raleway";
+    font-family: 'Raleway', Arial, sans-serif;
     padding-right: 15.4%;
     color: #000;
     font-size: 18px;
